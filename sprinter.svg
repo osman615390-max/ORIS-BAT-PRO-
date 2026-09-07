@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 480">
+<g fill="none" stroke-linejoin="round">
+<path d="M72 390H910" stroke="#5c5042" stroke-width="3"/>
+<path d="M132 330l45-150h447l120 74 72 76v38H132z" stroke="#e9e3d9" stroke-width="13"/>
+<path d="M198 204h390l81 52H184z" stroke="#69777a" stroke-width="7"/>
+<path d="M236 237v91M477 184v146" stroke="#6b6258" stroke-width="5"/>
+<path d="M685 272h73l39 50H686z" stroke="#69777a" stroke-width="7"/>
+<path d="M268 280h150" stroke="#d98234" stroke-width="8"/><text x="302" y="315" font-family="Arial,sans-serif" font-size="42" font-weight="900" fill="#d98234">ORIS BAT PRO</text>
+<circle cx="265" cy="367" r="43" stroke="#8e867b" stroke-width="13"/><circle cx="265" cy="367" r="14" stroke="#d8cdbd" stroke-width="7"/>
+<circle cx="704" cy="367" r="43" stroke="#8e867b" stroke-width="13"/><circle cx="704" cy="367" r="14" stroke="#d8cdbd" stroke-width="7"/>
+</g></svg>
