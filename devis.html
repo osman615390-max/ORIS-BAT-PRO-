@@ -1,0 +1,99 @@
+<!doctype html><html lang="fr" class="no-js"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0b0c">
+<title>Devis travaux BTP particuliers — ORIS BAT PRO</title>
+<meta name="description" content="Demandez un devis pour vos travaux de terrassement, maçonnerie, façades, isolation ou aménagement extérieur.">
+<meta property="og:title" content="Devis travaux BTP particuliers — ORIS BAT PRO"><meta property="og:description" content="Demandez un devis pour vos travaux de terrassement, maçonnerie, façades, isolation ou aménagement extérieur.">
+<meta property="og:type" content="website"><meta property="og:image" content="og-cover.webp">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=2">
+<script>document.documentElement.classList.replace('no-js','js')</script>
+</head><body class="devispage"><div class="progress"></div>
+<a class="skip" href="#main">Aller au contenu</a>
+<nav class="nav" aria-label="Navigation principale">
+  <div class="wrap navin">
+    <a class="logo" href="index.html" aria-label="ORIS BAT PRO - Accueil"><img src="logo-oris-bat-pro.svg" alt="ORIS BAT PRO"></a>
+    <div class="links" id="menu">
+      <a href="index.html">Accueil</a>
+      <a href="terrassement.html">Terrassement</a>
+      <a href="maconnerie.html">Maçonnerie</a>
+      <a href="facades-isolation.html">Façades</a>
+      <a href="amenagement-exterieur.html">Extérieurs</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="btn orange deskcta" href="devis.html">Devis gratuit <span>→</span></a>
+    <button class="hamb" aria-controls="menu" aria-expanded="false" aria-label="Ouvrir le menu"><i></i><i></i></button>
+  </div>
+</nav>
+
+<main id="main">
+<header class="quotehero"><div class="wrap reveal"><div class="kicker">DEVIS PARTICULIER</div><h1>PARLEZ-NOUS<br><em>DE VOTRE PROJET.</em></h1><p>5 étapes rapides. Vous restez sur le site pendant l’envoi.</p></div></header>
+<section class="quotearea"><div class="wrap">
+<form id="quoteForm" class="quoteform reveal" enctype="multipart/form-data" novalidate>
+<input class="honey" name="_honey" tabindex="-1" autocomplete="off">
+<div class="qtop"><div><span id="stepCounter">ÉTAPE 01 / 05</span><h2 id="stepTitle" tabindex="-1">Quel type de travaux ?</h2></div><div class="qbar"><i id="progressBar"></i></div></div>
+
+<fieldset class="qstep active" data-step="1">
+ <legend class="sr">Type de travaux</legend>
+ <div class="choices">
+  <label><input type="radio" name="service" value="Terrassement" required><b>TERRASSEMENT</b><small>Terrain, accès, tranchées</small></label>
+  <label><input type="radio" name="service" value="Maçonnerie" required><b>MAÇONNERIE</b><small>Murets, reprises, ouvrages</small></label>
+  <label><input type="radio" name="service" value="Façades & isolation" required><b>FAÇADES</b><small>Ravalement, isolation</small></label>
+  <label><input type="radio" name="service" value="Aménagement extérieur" required><b>EXTÉRIEURS</b><small>Cour, terrasse, abords</small></label>
+ </div>
+</fieldset>
+
+<fieldset class="qstep" data-step="2" aria-hidden="true"><legend class="sr">Votre projet</legend>
+ <div class="fields">
+  <label><span>Votre projet concerne</span><select name="type_projet" required><option value="">Choisir</option><option>Maison individuelle</option><option>Terrain</option><option>Cour / accès</option><option>Garage / dépendance</option><option>Autre</option></select></label>
+  <label><span>Nature du besoin</span><select name="besoin" required><option value="">Choisir</option><option>Création</option><option>Rénovation</option><option>Réparation / reprise</option><option>Préparation</option></select></label>
+  <label class="wide"><span>Expliquez-nous le chantier</span><textarea name="description" rows="6" required placeholder="Ex. Je souhaite décaisser ma cour et préparer l'accès..."></textarea></label>
+ </div>
+</fieldset>
+
+<fieldset class="qstep" data-step="3" aria-hidden="true"><legend class="sr">Localisation</legend>
+ <div class="fields">
+  <label><span>Commune</span><input name="commune" required autocomplete="address-level2" placeholder="Ex. Belfort"></label>
+  <label><span>Code postal</span><input name="code_postal" inputmode="numeric" autocomplete="postal-code" placeholder="Ex. 90000"></label>
+  <label><span>Accès</span><select name="acces"><option>Je ne sais pas</option><option>Large / facile</option><option>Étroit</option><option>Très contraint</option></select></label>
+  <label><span>Terrain en pente ?</span><select name="pente"><option>Je ne sais pas</option><option>Non</option><option>Légèrement</option><option>Oui</option></select></label>
+ </div>
+</fieldset>
+
+<fieldset class="qstep" data-step="4" aria-hidden="true"><legend class="sr">Délai et photos</legend>
+ <div class="fields">
+  <label><span>Délai souhaité</span><select name="delai" required><option value="">Choisir</option><option>Dès que possible</option><option>Dans le mois</option><option>1 à 3 mois</option><option>3 à 6 mois</option><option>Plus tard</option></select></label>
+  <label><span>Budget indicatif (facultatif)</span><select name="budget"><option value="">Non défini</option><option>Moins de 2 000 €</option><option>2 000 à 5 000 €</option><option>5 000 à 10 000 €</option><option>10 000 à 25 000 €</option><option>Plus de 25 000 €</option></select></label>
+  <label class="upload wide"><span>Photos (facultatif)</span><input id="quoteFiles" type="file" name="attachment" accept="image/jpeg,image/png,image/webp" multiple><b>AJOUTER JUSQU’À 5 PHOTOS</b><small id="filesInfo">5 Mo max par image · 8 Mo au total</small></label>
+ </div>
+</fieldset>
+
+<fieldset class="qstep" data-step="5" aria-hidden="true"><legend class="sr">Vos coordonnées</legend>
+ <div class="fields">
+  <label><span>Nom et prénom</span><input name="nom" required autocomplete="name"></label>
+  <label><span>Téléphone</span><input name="telephone" type="tel" required autocomplete="tel"></label>
+  <label><span>E-mail</span><input name="email" type="email" required autocomplete="email"></label>
+  <label><span>Contact préféré</span><select name="contact_pref"><option>Téléphone</option><option>E-mail</option></select></label>
+ </div>
+ <label class="consent"><input type="checkbox" name="consent" required><span>J’accepte l’utilisation de ces informations pour traiter ma demande. <a href="confidentialite.html">Confidentialité</a>.</span></label>
+ <div class="summary" id="quoteSummary"></div>
+</fieldset>
+
+<div id="formStatus" class="status" role="status" aria-live="polite"></div>
+<div class="qactions"><button type="button" class="btn glass" id="prevStep">← Retour</button><button type="button" class="btn orange" id="nextStep">Continuer →</button><button type="submit" class="btn orange" id="sendQuote">Envoyer la demande →</button></div>
+<p class="smallnote">Le formulaire utilise un service tiers compatible avec GitHub Pages pour acheminer la demande à ORIS BAT PRO. La première utilisation peut nécessiter une confirmation par e-mail.</p>
+</form>
+</div></section>
+</main>
+
+<footer class="footer">
+ <div class="wrap footgrid">
+   <div class="footbrand"><img src="logo-oris-bat-pro.svg" alt="ORIS BAT PRO"><p>Travaux de terrassement, maçonnerie, façades, isolation extérieure et aménagement autour de Denney.</p></div>
+   <div><b>NOS MÉTIERS</b><a href="terrassement.html">Terrassement</a><a href="maconnerie.html">Maçonnerie</a><a href="facades-isolation.html">Façades & isolation</a><a href="amenagement-exterieur.html">Aménagement extérieur</a></div>
+   <div><b>CONTACT</b><a href="tel:0695238453">06 95 23 84 53</a><a href="mailto:Orisbatpro@gmail.com">Orisbatpro@gmail.com</a><span>56 Grande Rue<br>90160 Denney</span></div>
+   <div><b>INFOS</b><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><span>Zone : jusqu’à 120 km selon projet</span></div>
+ </div>
+ <div class="wrap footbottom"><span>© 2026 ORIS BAT PRO</span><span>SAS · SIRET 985 373 810 00011</span></div>
+</footer>
+<div class="mobilebar"><a href="tel:0695238453">☎ APPELER</a><a href="devis.html">DEVIS →</a></div>
+<script src="script.js?v=2" defer></script>
+</body></html>

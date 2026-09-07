@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450">
+<g fill="none" stroke-linejoin="round">
+<path d="M110 320l35-120h418l120 70 85 50v58H110z" fill="#eee9e2" stroke="#5c5955" stroke-width="9"/>
+<path d="M165 218h365l95 55H151z" fill="#596970" stroke="#43484a" stroke-width="5"/>
+<path d="M242 272h220" stroke="#ff681b" stroke-width="9"/>
+<text x="260" y="310" font-family="Arial" font-size="34" font-weight="900" fill="#ff681b">ORIS BAT PRO</text>
+<circle cx="250" cy="374" r="38" fill="#222" stroke="#99938c" stroke-width="10"/><circle cx="645" cy="374" r="38" fill="#222" stroke="#99938c" stroke-width="10"/>
+</g></svg>
