@@ -1,0 +1,17 @@
+{
+  "name": "ORIS BAT PRO",
+  "short_name": "ORIS BAT PRO",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#08090a",
+  "theme_color": "#08090a",
+  "description": "Terrassement, maçonnerie, façades et aménagement extérieur à Denney.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
