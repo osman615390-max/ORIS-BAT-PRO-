@@ -1,0 +1,24 @@
+ORIS BAT PRO — V16.1 PERFECTED
+
+AUDIT EFFECTUÉ
+- 21 pages HTML contrôlées
+- H1 : OK
+- IDs dupliqués : aucun
+- Boutons : types explicites
+- Liens/fichiers locaux : OK
+- script.js : syntaxe OK
+- photo360.js : syntaxe OK
+- sw.js : syntaxe OK
+- ressources du service worker : OK
+
+CORRECTIONS
+- Project Command transmet désormais le dossier au devis même sans cliquer d'abord sur « Enregistrer ».
+- Les listes/select rafraîchissent correctement le score sur tous les navigateurs.
+- Sauvegarde automatique du cockpit lors de la navigation.
+- Smart CTA masqué sur les pages où il gênait l'expérience.
+- Focus clavier et accessibilité renforcés.
+- Textes longs sécurisés contre les débordements.
+- Version cache passée en V16.1 pour forcer la mise à jour sur Safari/GitHub Pages.
+
+AVERTISSEMENTS NON BLOQUANTS
+- Aucun avertissement bloquant détecté.
