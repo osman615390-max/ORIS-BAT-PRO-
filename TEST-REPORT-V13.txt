@@ -1,9 +1,0 @@
-ORIS BAT PRO — V13 ATELIER DIGITAL
-- Base V12 PhotoSphere conservée.
-- Nouveau Project Architect interactif relié au devis.
-- Nouveau Command Center de recherche instantanée.
-- Nouveau dock d’actions contextuel.
-- Progression de lecture globale.
-- Optimisations mobile et micro-interactions.
-- 18 pages contrôlées : H1, IDs, références locales.
-- Syntaxe script.js, photo360.js, sw.js validée.
