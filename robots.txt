@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://osman615390-max.github.io/oris-bat-pro/sitemap.xml

@@ -1,0 +1,22 @@
+ORIS BAT PRO — V9 HYPERREAL IMMERSIVE 360
+
+AUDIT
+- 16 pages HTML contrôlées
+- H1 : OK
+- IDs dupliqués : aucun
+- Références locales : OK
+- script.js : syntaxe OK
+- viewer3d.js : syntaxe OK
+- sw.js : syntaxe OK
+
+V9 IMMERSION
+- Shader enrichi : micro-variation matière, profondeur de contact, réflexion Fresnel sur vitrages/métaux
+- Maçonnerie : joints, seuils, rails, cadres, couvertine/toiture, descente EP
+- Chantier : tranchée, granulats, palette de blocs, sacs, cônes, gravats, réseaux, planches, traces
+- Contexte résidentiel : clôture, végétation, atelier, maison voisine, bassin
+- Engins : mini-pelle animée, camion animé, poussière et ombres de contact
+- Avant / En cours / Après + visite cinéma + caméra libre 360°
+- Conçu pour rester stable sur iPhone via WebGL 1 natif et rendu adaptatif
+
+NOTE
+Les vues non fournies par photographie sont une reconstruction conceptuelle réaliste ; elles ne sont pas présentées comme des photos réelles.

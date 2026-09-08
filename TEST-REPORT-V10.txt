@@ -1,0 +1,14 @@
+ORIS BAT PRO — V10 FLAGSHIP IMMERSIVE
+
+Audit statique final
+- 16 pages HTML contrôlées
+- 1 H1 par page : OK
+- IDs dupliqués : aucun
+- Références locales : OK
+- script.js : syntaxe OK
+- viewer3d.js : syntaxe OK
+- sw.js : syntaxe OK
+- couche V10 : progression de lecture, micro-interactions, grain cinéma, profondeur hero, menu scan, accessibilité reduced-motion
+- Studio 360 : moteur V9 conservé + présentation V10, afin de ne pas déstabiliser le moteur validé
+
+Note : un audit statique ne remplace pas un test sur chaque appareil réel.
