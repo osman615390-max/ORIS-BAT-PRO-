@@ -1,3 +1,0 @@
-ORIS BAT PRO V11 CINEMATIC REAL 360
-
-Tests: desktop 1440x1000 PASS; mobile 390x844 PASS; stage switching PASS; hotspots PASS; JavaScript console PASS; internal refs PASS; duplicate IDs PASS; H1 PASS.
