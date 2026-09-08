@@ -1,0 +1,17 @@
+{
+  "name": "ORIS BAT PRO — REALSITE 360",
+  "short_name": "ORIS BAT PRO",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070809",
+  "theme_color": "#070809",
+  "description": "Terrassement, maçonnerie, façades et aménagement extérieur à Denney — expérience REALSITE 360.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
