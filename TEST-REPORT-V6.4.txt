@@ -1,0 +1,50 @@
+ORIS BAT PRO — V6.4 LIVE 360 REAL
+=====================================
+
+OBJECTIF
+Refonte du Studio 360° pour se rapprocher d'un chantier réel et non d'une maquette 2D/low-poly.
+
+AMÉLIORATIONS 360°
+- Scène reconstruite en s'inspirant de la photo chantier fournie par l'utilisateur.
+- Extension de maison à toit plat, dalle, baie vitrée, terrain, terre, réseaux et bassin/muret.
+- Textures photographiques locales extraites de la photo réelle fournie :
+  parpaings, béton, terre, vitrage, toiture, enduit et sol.
+- Rotation libre 360°.
+- Zoom molette / pincement mobile.
+- Trois étapes : Avant / Travaux / Après.
+- Bouton "Chantier live" : enchaînement automatique Avant -> Travaux -> Après.
+- Pendant "Travaux" :
+  mini-pelle animée (tourelle, bras, godet, déplacement léger),
+  camion animé,
+  poussière animée,
+  enduit de chantier évolutif.
+- Après :
+  sol fini, murets, marches, végétation avec mouvement d'ambiance discret.
+- Vues caméra dédiées : globale, terrassement, maçonnerie, façade, accès, machine, camion.
+- Textures et moteur 3D 100 % locaux : aucune dépendance Three.js/CDN.
+- Fallback photo si WebGL n'est pas disponible.
+- Gestion perte de contexte WebGL.
+- Réglages mobiles conservés.
+
+AUDIT STATIQUE EFFECTUÉ
+- 16 pages HTML.
+- 1 H1 par page.
+- Aucun ID dupliqué.
+- Aucun lien/fichier local manquant.
+- script.js : syntaxe Node OK.
+- viewer3d.js : syntaxe Node OK.
+- sw.js : syntaxe Node OK.
+- Version de cache passée en V6.4.
+- Assets photo/texture présents.
+- Aucun ancien ?v=6.3 dans les fichiers critiques.
+
+NOTE DE TEST
+L'environnement Chromium disponible dans le conteneur de génération ne dispose pas d'un backend GPU/WebGL
+fonctionnel. Le rendu WebGL final ne peut donc pas être validé visuellement dans ce conteneur.
+Le moteur reste basé sur le WebGL natif V6.3 déjà fonctionnel sur l'iPhone de test, avec modifications
+compatibles WebGL 1 et contrôles de syntaxe/structure effectués avant livraison.
+
+LIMITATION PHYSIQUE
+À partir d'une seule photo, les angles qui ne sont pas visibles sur cette photo doivent nécessairement être
+reconstruits en 3D. Pour obtenir un 360° véritablement identique à un chantier réel sous tous les angles,
+il faut une capture 360° réelle ou des prises de vue de tous les côtés du chantier.
