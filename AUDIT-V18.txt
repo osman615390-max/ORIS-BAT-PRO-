@@ -1,0 +1,23 @@
+ORIS BAT PRO — V18 CONVERSION
+
+- 22 pages HTML contrôlées.
+- Loader et curseur retirés du HTML.
+- Menu principal réduit à 9 entrées cohérentes.
+- Accueil recentré sur téléphone, devis et métiers.
+- Studio 360 retiré du chargement interactif de l’accueil.
+- Un seul outil facultatif « Préparer mon projet ».
+- Devis express sur une page ; détails avancés facultatifs.
+- Budget retiré du parcours principal.
+- Préparation conservée en localStorage.
+- Visualisations réduites et clairement présentées comme telles.
+- Lazy-loading renforcé.
+- Service worker allégé : aucun panorama 360 préchargé.
+- Sitemap recentré.
+- H1, IDs, liens locaux, script.js, photo360.js, sw.js : OK.
+
+IMPORTANT
+FormSubmit doit encore être activé puis testé avec un vrai message reçu dans Orisbatpro@gmail.com avant de considérer le devis en ligne comme validé.
+Les vraies photos de chantier restent le prochain gain majeur de confiance.
+Audit Safari/iPhone réel non effectué dans cet environnement.
+
+Phrases ciblées restantes : aucune.
