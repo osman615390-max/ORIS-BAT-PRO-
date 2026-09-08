@@ -1,0 +1,10 @@
+ORIS BAT PRO — V12 PHOTOSPHERE CINEMA 360
+
+- Viewer principal basé sur panoramas photographiques 6144×2048.
+- Moteur WebGL local sans CDN / sans Three.js.
+- Rotation 360°, pitch, pinch zoom et molette.
+- Transitions Avant / En cours / Après.
+- Visite cinéma automatique.
+- Hotspots et points de vue rapides.
+- Fallback photo.
+- Audit structure et syntaxe effectué avant packaging.
